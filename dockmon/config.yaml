@@ -1,0 +1,26 @@
+name: DockMon
+version: "2.5.0-1"
+slug: dockmon
+description: "DockMon server for container monitoring and management"
+url: "https://github.com/darthnorse/dockmon"
+arch:
+  - amd64
+  - aarch64
+startup: services
+boot: auto
+init: false
+protected: false
+docker_api: true
+apparmor: false
+ports:
+  "443/tcp": 8001
+ports_description:
+  "443/tcp": "DockMon HTTPS web interface"
+webui: "https://[HOST]:[PORT:443]"
+watchdog: "https://[HOST]:[PORT:443]/health"
+options:
+  timezone: "Europe/Budapest"
+schema:
+  timezone: str
+environment:
+  TZ: "Europe/Budapest"

@@ -1,0 +1,6 @@
+configuration:
+  timezone:
+    name: Idozona
+    description: A DockMon altal hasznalt idozona, peldaul Europe/Budapest.
+network:
+  443/tcp: DockMon HTTPS webes felulet

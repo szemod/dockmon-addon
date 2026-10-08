@@ -1,0 +1,22 @@
+# Home Assistant DockMon add-on repository
+
+This repository contains a Home Assistant add-on that runs the DockMon server.
+
+## Repository layout
+
+```text
+.
+├── repository.yaml
+├── README.md
+└── dockmon
+    ├── config.yaml
+    ├── Dockerfile
+    ├── README.md
+    ├── DOCS.md
+    ├── CHANGELOG.md
+    └── translations
+        ├── en.yaml
+        └── hu.yaml
+```
+
+Before publishing, replace `YOUR_GITHUB_USERNAME` in `repository.yaml` with the actual GitHub account or organization name.

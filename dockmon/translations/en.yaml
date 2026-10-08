@@ -1,0 +1,6 @@
+configuration:
+  timezone:
+    name: Time zone
+    description: Time zone used by DockMon, for example Europe/Budapest.
+network:
+  443/tcp: DockMon HTTPS web interface
