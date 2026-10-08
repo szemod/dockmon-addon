@@ -19,4 +19,3 @@ This repository contains a Home Assistant add-on that runs the DockMon server.
         └── hu.yaml
 ```
 
-Before publishing, replace `YOUR_GITHUB_USERNAME` in `repository.yaml` with the actual GitHub account or organization name.
